@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    width: 100%;
+    border: 1px solid black;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+#results{
+    width: 85%;
+}
+#sidebar{
+    width: 15%;
+    display: flex;
+    border-right: 1px solid gray;
+    height: 1000px;
+}
+li{
+    margin-top: 15px;
+}
